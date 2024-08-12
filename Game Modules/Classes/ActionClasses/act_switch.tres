@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="ActionState" load_steps=2 format=3 uid="uid://brioeyabni40m"]
+
+[ext_resource type="Script" path="res://Game Modules/Classes/Scripts/action_state.gd" id="1_q8i1i"]
+
+[resource]
+script = ExtResource("1_q8i1i")
+action_guid = 22
+weapon_uid = 0
+is_actionActive = false
+is_sheathed = false

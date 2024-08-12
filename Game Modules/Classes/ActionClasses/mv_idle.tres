@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="ActionState" load_steps=2 format=3 uid="uid://bieprx2h7wrgr"]
+
+[ext_resource type="Script" path="res://Game Modules/Classes/Scripts/action_state.gd" id="1_tv5ti"]
+
+[resource]
+script = ExtResource("1_tv5ti")
+action_guid = 0
+weapon_uid = 0
+is_actionActive = false
+is_sheathed = true

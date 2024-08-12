@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="MovementStances" load_steps=2 format=3 uid="uid://c6dlha5gc6ppf"]
+
+[ext_resource type="Script" path="res://Game Modules/Classes/Scripts/movement_stances.gd" id="1_0vrht"]
+
+[resource]
+script = ExtResource("1_0vrht")
+movement_stateID = 2
+active_weaponID = 1
+movement_speed = 1.0
+movement_weight = 1.5

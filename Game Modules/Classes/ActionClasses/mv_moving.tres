@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="ActionState" load_steps=2 format=3 uid="uid://bogyfe81obu1p"]
+
+[ext_resource type="Script" path="res://Game Modules/Classes/Scripts/action_state.gd" id="1_cxt5l"]
+
+[resource]
+script = ExtResource("1_cxt5l")
+action_guid = 1
+weapon_uid = 0
+is_actionActive = true
+is_sheathed = true
