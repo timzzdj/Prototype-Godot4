@@ -5,6 +5,8 @@
 [resource]
 script = ExtResource("1_ndwtv")
 movement_stateID = 3
-active_weaponID = 0
-movement_speed = 2.0
-movement_weight = 1.0
+active_weaponID = 9
+movement_speed = 1.5
+movement_weight = 1.5
+fwd_momentum = 1.2
+bwd_momentum = -1.0

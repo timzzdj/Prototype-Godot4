@@ -9,11 +9,14 @@ signal update_general_action()
 #****************************************************************************#
 #								Fields									 	 #
 #****************************************************************************#
-var input_direction : Vector3 # Basic movement direction
+var input_direction   : Vector3 # Basic movement direction
 #****************************************************************************#
 #								Functions								 	 #
 #****************************************************************************#
 # Initialize Player Node
+func _ready():
+	pass
+# Process User Input
 func _input(event):
 	# Checks for Input keys from the 'Basic Movement' group
 	if event.is_action_pressed("mv_basic") or event.is_action_released("mv_basic"):
@@ -25,3 +28,4 @@ func _input(event):
 func _physics_process(delta):
 	# Updates associated node of the current input values
 	update_general_movement.emit(input_direction)
+	

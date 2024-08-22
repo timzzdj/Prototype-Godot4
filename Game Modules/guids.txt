@@ -1,8 +1,8 @@
 Weapon : Equipped
-NW = 0  (no weapon)
-DW = 1  (dual wield)
-TH = 2  (two-handed)
-SAS = 3 (sword and shield)
+NW = 9  (no weapon)
+DW = 0  (dual wield)
+TH = 1  (two-handed)
+SAS = 2 (sword and shield)
 
 Movements : General
 Idle = 1
@@ -10,18 +10,18 @@ Walk = 2
 Run  = 3
 
 Movements/Animations : ActiveWeapon
-NW_Idle = 0_1
-NW_Walk = 0_2
-NW_Run  = 0_3
-DW_Idle  = 1_1
-DW_Walk  = 1_2
-DW_Run   = 1_3
-TH_Idle  = 2_1
-TH_Walk  = 2_2
-TH_Run   = 2_3
-SAS_Idle = 3_1
-SAS_Walk = 3_2
-SAS_Run  = 3_3
+NW_Idle = 9_1
+NW_Walk = 9_2
+NW_Run  = 9_3
+DW_Idle  = 0_1
+DW_Walk  = 0_2
+DW_Run   = 0_3
+TH_Idle  = 1_1
+TH_Walk  = 1_2
+TH_Run   = 1_3
+SAS_Idle = 2_1
+SAS_Walk = 2_2
+SAS_Run  = 2_3
 
 Action : Attacks
 SAS_Atk1 = 12
@@ -40,4 +40,5 @@ Interact = 21
 Action : Special
 Weapon_Switch = 22
 Special_Action = 23
-
+Dash_Passive = 24
+Dash_Active = 25

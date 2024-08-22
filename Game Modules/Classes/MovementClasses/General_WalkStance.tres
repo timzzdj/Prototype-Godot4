@@ -5,6 +5,8 @@
 [resource]
 script = ExtResource("1_83ydd")
 movement_stateID = 2
-active_weaponID = 0
-movement_speed = 1.5
+active_weaponID = 9
+movement_speed = 1.0
 movement_weight = 1.0
+fwd_momentum = 1.0
+bwd_momentum = -1.0
